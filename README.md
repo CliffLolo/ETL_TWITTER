@@ -9,7 +9,7 @@ Part 2 deals with saving the tweets extracted to MongoDB
 * Clone this repo
 * Create an environment using :
   ```
-  conda creat -n "env name" python=3.7
+  conda create -n "env name" python=3.7
   
   ```
   
