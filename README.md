@@ -1,14 +1,16 @@
-# Web Scaping With Tweepy
+# ETL With Twitter Data
 ## Project Overview 
 This script scrapes data from [Twitter](https://twitter.com/en). Results are saved into a csv file for further analysis.
 
 *Tools used:*
 - **jupyter noteboook**
+- **Python 3.7**
 - **tweepy**
 - **pandas**
+- **pymongo**
 
 *The script does the following:*
-- a function to scrape data from the tonaton site
+- a function to scrape data from the twitter site
 - a function to save the data scrapped to a csv file.
 
 ## SetUp
@@ -32,12 +34,22 @@ This script scrapes data from [Twitter](https://twitter.com/en). Results are sav
   pip install -r requirements.txt 
   
   ```
+  ### Store env variables
+
+To store your API credentials:  
+
+* Duplicate  ``` .env.example ``` file and create a new file name *.env*
+
+
 
 ## Resources used
 ```
 * https://towardsdatascience.com/how-to-scrape-more-information-from-tweets-on-twitter-44fd540b8a1f
 * https://medium.com/python-in-plain-english/scraping-tweets-with-tweepy-python-59413046e788
 * https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets
+* [Twitter Search API](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets)
+* [Tweepy Doc](http://docs.tweepy.org/en/latest/index.html)
+* [Pymongo Doc](https://pymongo.readthedocs.io/en/stable/)
 ```
 
 ## Activities done 
