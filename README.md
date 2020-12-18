@@ -1,8 +1,15 @@
-# ETL_TWITTER
+# Web Scaping With Tweepy
 ## Project Overview 
-This project is on basic ETL using twitter data. It is in 2 parts- Part 1 and Part 2.<br>
-Part 1 has to do with scrapping the tweets and storing the results in a CV
-Part 2 deals with saving the tweets extracted to MongoDB
+This script scrapes data from [Twitter](https://twitter.com/en). Results are saved into a csv file for further analysis.
+
+*Tools used:*
+- **jupyter noteboook**
+- **tweepy**
+- **pandas**
+
+*The script does the following:*
+- a function to scrape data from the tonaton site
+- a function to save the data scrapped to a csv file.
 
 ## SetUp
 * Apply for a Twitter developer account
@@ -34,7 +41,7 @@ Part 2 deals with saving the tweets extracted to MongoDB
 ```
 
 ## Activities done 
-Part 1 contains two functions:
+The two functions:
   * scape_tweets() - This function returns a dataframe containng the tweets extracted and has the following parameters:<br>
       * Search topic
       * The number of tweets to download per request
