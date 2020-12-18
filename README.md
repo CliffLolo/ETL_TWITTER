@@ -43,13 +43,12 @@ To store your API credentials:
 
 
 ## Resources used
-```
+
 - [Twitter Search API](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets)
 - [Tweepy Documentation](http://docs.tweepy.org/en/latest/index.html)
 - [Pymongo Documentation](https://pymongo.readthedocs.io/en/stable/)
 - [Scraping Tweets with Tweepy Python - Python in Plain English](https://medium.com/python-in-plain-english/scraping-tweets-with-tweepy-python-59413046e788)
 - [How to Scrape More Information From Tweets on Twitter - Towards Data Science](https://towardsdatascience.com/how-to-scrape-more-information-from-tweets-on-twitter-44fd540b8a1f)
-```
 
 ## Activities done 
 The two functions:
