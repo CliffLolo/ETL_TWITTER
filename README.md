@@ -30,6 +30,7 @@ Part 2 deals with saving the tweets extracted to MongoDB
 ```
 * https://towardsdatascience.com/how-to-scrape-more-information-from-tweets-on-twitter-44fd540b8a1f
 * https://medium.com/python-in-plain-english/scraping-tweets-with-tweepy-python-59413046e788
+* https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets
 ```
 
 ## Activities done 
@@ -52,3 +53,5 @@ The following attributes of the tweets would be extracted:<br>
    * Likes count
    * User info
    * Username
+
+Part 2 - A MongoDB database is created with the name Tweets_db and the extracted tweets are stored into a collection named: raw_tweets.
